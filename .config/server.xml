@@ -21,7 +21,7 @@
                redirectPort="8443" />
     <Connector port="8009" protocol="AJP/1.3" redirectPort="8443" />
 
-    <Engine name="Catalina" defaultHost="${catalina.host}">
+    <Engine name="Catalina" defaultHost="${catalina.host}" jvmRoute="${catalina.host}">
     
       <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster"/>
 

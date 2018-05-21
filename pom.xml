@@ -32,8 +32,13 @@
 			</plugin>
 		</plugins>
 	</build>
-    <dependencies>
+    <dependencies>	    
         <dependency>
+            <groupId>org.apache.ignite</groupId>
+            <artifactId>ignite-kubernetes</artifactId>
+            <version>${ignite.version}</version>
+        </dependency>
+	<dependency>
             <groupId>org.apache.ignite</groupId>
             <artifactId>ignite-core</artifactId>
             <version>${ignite.version}</version>

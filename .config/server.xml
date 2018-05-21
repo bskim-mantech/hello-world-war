@@ -30,7 +30,7 @@
 
       <Host name="${catalina.host}"  appBase="webapps"
             unpackWARs="true" autoDeploy="true">
-
+<!--
         <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster"
                  channelSendOptions="8">
 
@@ -70,7 +70,7 @@
 
           <ClusterListener className="org.apache.catalina.ha.session.ClusterSessionListener"/>
         </Cluster>
-        
+       --> 
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="${catalina.logdir}"
                prefix="${catalina.host}_access_log" suffix=".txt"
                pattern="%{X-Forwarded-For}i %h %l %u %t &quot;%r&quot; %s %b %{User-Agent}i" />

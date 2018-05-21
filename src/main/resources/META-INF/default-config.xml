@@ -26,7 +26,7 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/util
         http://www.springframework.org/schema/util/spring-util.xsd">
-  <!--
+
     <bean abstract="true" id="ignite.cfg" class="org.apache.ignite.configuration.IgniteConfiguration">
         <property name="peerClassLoadingEnabled" value="true"/>
 
@@ -60,7 +60,8 @@
             </bean>
         </property>
     </bean>
--->
+
+  <!--
   <bean class="org.apache.ignite.configuration.IgniteConfiguration">
   <property name="discoverySpi">
     <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
@@ -72,4 +73,5 @@ class="org.apache.ignite.spi.discovery.tcp.ipfinder.kubernetes.TcpDiscoveryKuber
     </bean>
   </property>
 </bean>
+-->
 </beans>

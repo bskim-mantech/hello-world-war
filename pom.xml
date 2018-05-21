@@ -26,8 +26,6 @@
 		</plugins>
 	</build>
     <dependencies>
-   <!-- Ignite -->
-    <dependencies>
         <dependency>
             <groupId>org.apache.ignite</groupId>
             <artifactId>ignite-core</artifactId>

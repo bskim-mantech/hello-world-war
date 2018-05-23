@@ -13,7 +13,7 @@
 	
 	<context-param>
           <param-name>IgniteConfigurationFilePath</param-name>
-          <param-value>config/default-config.xml</param-value>
+          <param-value>conf/default-config.xml</param-value>
         </context-param>
 	
 	<context-param>

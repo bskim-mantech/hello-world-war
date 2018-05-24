@@ -37,4 +37,8 @@
 		<filter-name>IgniteWebSessionsFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
+	
+	<session-config>
+            <session-timeout>1</session-timeout>
+        </session-config>
 </web-app>

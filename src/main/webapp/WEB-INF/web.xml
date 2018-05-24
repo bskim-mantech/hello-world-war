@@ -5,8 +5,9 @@
                              http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0">
 	<!-- This is only here because Maven requires it to make a war. -->
+	<!--
 	<distributable/>
-	
+	-->
 	<listener>
           <listener-class>org.apache.ignite.startup.servlet.ServletContextListenerStartup</listener-class>
         </listener>

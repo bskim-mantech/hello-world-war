@@ -130,7 +130,7 @@
                     Partitioned cache example configuration (Atomic mode).
                 -->
                 <bean class="org.apache.ignite.configuration.CacheConfiguration">
-                    <property name="name" value="partitioned"/>
+                    <property name="name" value="webSessionCache"/>
 
                     <property name="cacheMode" value="PARTITIONED"/>
 

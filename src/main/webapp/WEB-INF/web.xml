@@ -27,6 +27,11 @@
 		<param-name>IgniteWebSessionsCacheName</param-name>
 		<param-value>webSessionCache</param-value>
 	</context-param>
+	
+	<context-param>
+		<param-name>IgniteWebSessionsKeepBinary</param-name>
+		<param-value>false</param-value>
+	</context-param>
 
 	<filter>
 		<filter-name>IgniteWebSessionsFilter</filter-name>

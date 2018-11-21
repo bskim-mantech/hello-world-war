@@ -52,3 +52,4 @@
         }
 %>
         </table>
+<% System.out.println("Session TEST"); %>
